@@ -15,6 +15,8 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 [pose object preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/Pose%20Class.ipynb) 贡献者：吴炜坤
 
+1.1 Pose IO()
+
 
 
 二、Selector
