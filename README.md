@@ -23,9 +23,9 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 1.3 [Atom & Residue](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_3_Atom_Residue.ipynb)
 
-1.4 Conformation & Protein Geometry
+1.4 [Conformation & Protein Geometry](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_4_Conformation_Geometry.ipynb)
 
-1.5 Pose operating
+1.5 [Pose operating](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_5_Pose_Operating.ipynb)
 
 
 
