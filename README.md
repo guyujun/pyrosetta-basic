@@ -2,6 +2,8 @@
 
 PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡献。
 
+贡献者：吴炜坤
+
 
 
 大纲内容:
@@ -13,21 +15,23 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 一、Pose与Structure IO
 
-贡献者：吴炜坤
-
 [Pose Object Abstract](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/Pose%20Class.ipynb)
 
 1.1 [Pose IO](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_1_Pose_IO.ipynb)
 
 1.2 [Pose & PDBinfo](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_2_Pose%26PDB.ipynb)
 
+1.3 Atom & Residue
+
+1.4 Conformation & Protein Geometry
+
+1.5 Pose operating
 
 
 
+二、Residue Selector
 
-二、Selector
-
-[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 贡献者：吴炜坤
+[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 
 
 
 
