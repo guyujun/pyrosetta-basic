@@ -15,10 +15,15 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 [pose object preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/Pose%20Class.ipynb)
 
+贡献者：吴炜坤
+
 
 
 二、Selector
+
 [residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb)
+
+贡献者：吴炜坤
 
 
 
@@ -71,4 +76,5 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 
 十一、MPI with PyRosetta
+
 规划中（虚席以待合作者加入）
