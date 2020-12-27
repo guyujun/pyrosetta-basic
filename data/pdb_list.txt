@@ -1,0 +1,3 @@
+./data/pose_demo.pdb
+./data/pose_demo1.pdb
+./data/pose_demo2.pdb
