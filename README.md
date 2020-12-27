@@ -17,6 +17,8 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 贡献者：吴炜坤
 
+/br
+
 
 
 二、Selector
@@ -24,6 +26,8 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 [residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb)
 
 贡献者：吴炜坤
+
+/br
 
 
 
