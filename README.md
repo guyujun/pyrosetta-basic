@@ -19,7 +19,7 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 1.1 [Pose IO](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_1_Pose_IO.ipynb)
 
-1.2 [Pose & PDBinfo]()
+1.2 [Pose & PDBinfo](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_2_Pose%26PDB.ipynb)
 
 
 
