@@ -19,13 +19,15 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 1.1 [Pose IO](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_1_Pose_IO.ipynb)
 
-1.2 [Pose & PDBinfo](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_2_Pose_PDBinfo.ipynb)
+1.2 [PymolMover](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_2_PyMover_PyRosetta.ipynb)
 
-1.3 [Atom & Residue](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_3_Atom_Residue.ipynb)
+1.3 [Pose & PDBinfo](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_3_Pose_PDBinfo.ipynb)
 
-1.4 [Conformation & Protein Geometry](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_4_Conformation_Geometry.ipynb)
+1.4 [Atom & Residue](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_4_Atom_Residue.ipynb)
 
-1.5 [Pose Operation](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_5_Pose_Operating.ipynb)
+1.5 [Conformation & Protein Geometry](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_5_Conformation_Geometry.ipynb)
+
+1.6 [Pose Operation](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_6_Pose_Operating.ipynb)
 
 
 
