@@ -22,7 +22,7 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 一、Pose与Structure IO
 
-[Pose Object Abstract](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_0_Pose_Abstract.ipynb)
+1 [Pose Object Abstract](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_0_Pose_Abstract.ipynb)
 
 1.1 [Pose IO](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_1_Pose_IO.ipynb)
 
