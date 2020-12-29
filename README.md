@@ -14,9 +14,9 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 0.1 Basic
 
-0.2 util
+0.2 Utils
 
-0.3 python
+0.3 Python
 
 
 
