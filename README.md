@@ -1,4 +1,4 @@
-# PyrosettaTutorial
+# Pyrosetta Basic
 
 PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡献。
 
@@ -36,60 +36,81 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 
 
-二、Residue Selector
-
-[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 
-
-
-
-三、ScoreFunction
+二、Energy Function
 
 施工中🚧 
 
 
 
-四、Kinematics & Monte Carlo
+三、Kinematics & Monte Carlo
+
+3.0 FoldTree
+
+3.1 Folding & Fragment
+
+3.2 Monte Carlo
+
+
+
+四、Residue Selector
+
+[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 
+
+
+
+五、Refinement
+
+5.1 Small & Shear Mover*（讲Mover）
+
+5.2 MinMover & MoveMap
+
+5.3 Repeat & Sequence Mover
+
+
+
+六、Design & TaskOP
+
+6.1 Rotamer
+
+6.2 Repack & Design
+
+6.3 TaskOP
+
+
+
+六、Filters
 
 规划中
 
 
 
-五、Design & Refinement
+七、SimpleMetric
 
 规划中
 
 
 
-六、Docking & Symmetry
+八、Symmetry
 
 规划中
 
 
 
-七、Loop modelling
+九、xmlObject & RosettaScript
 
 规划中
 
 
 
-八、Filters
+十、MPI with PyRosetta
 
 规划中
 
 
 
-九、SimpleMetric
+专题:
 
-规划中
-
-
-
-十、xmlObject & RosettaScript
-
-规划中
-
-
-
-十一、MPI with PyRosetta
-
-规划中
+1. Docking 
+2. Loop modelling
+3. Antibody
+4. 
