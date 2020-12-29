@@ -1,6 +1,6 @@
-# Pyrosetta Basic
+# Pyrosetta Core
 
-PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡献。
+PyRosetta Core中文教程，本教程由浅入深，讲解Rosetta的基本原理以及在PyRosetta中的应用实例。
 
 贡献者：吴炜坤
 
@@ -108,9 +108,10 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 
 
-专题:
+十一、专题:
 
-1. Docking 
-2. Loop modelling
-3. Antibody
-4. 
+1. Protein Docking 
+2. Loop Modelling
+3. Antibody Modelling
+4. Denovo Design
+5. trRosetta
