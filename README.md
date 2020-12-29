@@ -7,9 +7,16 @@ PyRosetta中文教程，本教程是由Rosetta中文开源社区成员共同贡�
 
 
 大纲内容:
-零、Basic &  util & PyMol
+
+零、安装与入门介绍
 
 0 [Installation](https://github.com/guyujun/chinese-pyrosetta/blob/master/0_0_Install.ipynb)
+
+0.1 Basic
+
+0.2 util
+
+0.3 python
 
 
 
