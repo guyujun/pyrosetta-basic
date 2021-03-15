@@ -2,15 +2,24 @@
 
 PyRosetta Core中文教程，本教程由浅入深，讲解Rosetta的基本原理以及在PyRosetta中的应用实例。
 
-贡献者：吴炜坤
+贡献者：
+
+1. 吴炜坤 @晶泰人工智能研发中心
+2. 翟珂 @晶泰人工智能研发中心
+3. 胡志运 @晶泰人工智能研发中心
+4. 张博文 @晶泰人工智能研发中心
 
 
 
-大纲内容:
+## 3 中文章节分配
+
+成员可自行领取@all
+
+#### 大纲内容:
 
 零、安装与入门介绍
 
-0 [Installation](https://github.com/guyujun/chinese-pyrosetta/blob/master/0_0_Installation.ipynb)
+0.0 [Installation](https://github.com/guyujun/chinese-pyrosetta/blob/master/0_0_Installation.ipynb)
 
 0.1 [Python_Basic](https://github.com/guyujun/chinese-pyrosetta/blob/master/0_1_Python_Basic.ipynb)
 
@@ -18,7 +27,11 @@ PyRosetta Core中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 
 
-一、Pose与Structure IO
+一、Pose与Structure IO: 负责介绍PyRosetta对结构文件的处理，以及Pose对象的重要作用@吴炜坤 
+
+相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb
+
+进度: 100% @吴炜坤 
 
 1 [Pose Object Abstract](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_0_Pose_Abstract.ipynb)
 
@@ -36,82 +49,105 @@ PyRosetta Core中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 
 
-二、Energy Function
+二、Energy Function与Constraint: 介绍Rosetta的能量函数与物理约束
 
-施工中🚧 
+相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb
+
+Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
+
+2.0 Atom Model
+
+2.1 Energy Terms and Score Function
+
+2.2 Constraints
 
 
 
-三、Kinematics & Monte Carlo
+三、Kinematics与MoveMap: 介绍Rosetta的自由度控制
+
+相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
+
+相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
 
 3.0 FoldTree
 
-3.1 Folding & Fragment
-
-3.2 Monte Carlo
+3.1 MoveMap
 
 
 
-四、Residue Selector
+四、Monte Carlo与Folding: 介绍Rosetta中的Foldtree与蒙特卡洛算法@吴炜坤 
 
-[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 
+Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
+相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
 
+4.0 Monte Carlo object
 
-五、Refinement
+4.1 Fragment & Folding
 
-5.1 Small & Shear Mover*（讲Mover）
-
-5.2 MinMover & MoveMap
-
-5.3 Repeat & Sequence Mover
+4.2 Refinement
 
 
 
-六、Design & TaskOP
+五、Residue Selector: 介绍残基选择器
 
-6.1 Rotamer
+中文总结：https://zhuanlan.zhihu.com/p/58348980
 
-6.2 Repack & Design
+官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/ResidueSelectors/ResidueSelectors
 
-6.3 TaskOP
+进度: 10%, 需要差缺补漏
 
-
-
-六、Filters
-
-规划中
+5.0 [residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb)
 
 
 
-七、SimpleMetric
+六、Packer与TaskOperation: 介绍Packer与氨基酸侧链自由度控制
 
-规划中
+相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb
 
+6.0 Rotamers & Rotamer Lib
 
+6.1 Packer & Repack
 
-八、Symmetry
+6.2 TaskOperation & TaskFactory
 
-规划中
-
-
-
-九、xmlObject & RosettaScript
-
-规划中
+6.3 PackerPalettes & D-amino acids
 
 
 
-十、MPI with PyRosetta
+七、SimpleMetric: 新一代的打分系统
 
-规划中
+SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
+
+7.0 SimpleMetric
 
 
 
-十一、专题:
+八、Filters: 过滤器，大过滤器！
+
+官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Filters/Filters-RosettaScripts
+
+8.0 Filters
+
+
+
+九、xmlObject & RosettaScript: xmlObject如何解决Rosetta历史遗留问题
+
+xmlObject的API总结: https://zhuanlan.zhihu.com/p/58381573
+
+官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
+
+9.0 RosettaScript
+
+9.1 xmlObject
+
+
+
+专题:
 
 1. Protein Docking 
 2. Loop Modelling
 3. Antibody Modelling
 4. Denovo Design
 5. trRosetta
+6. 对称性处理
