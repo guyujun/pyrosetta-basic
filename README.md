@@ -6,8 +6,8 @@ PyRosetta Core中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 1. 吴炜坤 @晶泰人工智能研发中心
 2. 翟珂 @晶泰人工智能研发中心
-3. 胡志运 @晶泰人工智能研发中心
-4. 张博文 @晶泰人工智能研发中心
+3. 张博文 @晶泰人工智能研发中心
+4. 胡志运 @晶泰人工智能研发中心 实习生
 
 
 
@@ -55,11 +55,9 @@ PyRosetta Core中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
-2.0 Atom Model
-
-2.1 Energy Terms and Score Function
-
-2.2 Constraints
+- 2.0 Atom Model
+- 2.1 Energy Terms and Score Function
+- 2.2 Constraints
 
 
 
@@ -67,11 +65,11 @@ Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
+Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
-3.0 FoldTree
-
-3.1 MoveMap
+- 3.0 FoldTree
+- 3.1 Docking Tree & Jumps
+- 3.2 MoveMap
 
 
 
@@ -81,15 +79,18 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
 
-4.0 Monte Carlo object
+相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
 
-4.1 Fragment & Folding
+以centroid backbone folding为demo.
 
-4.2 Refinement
+- 4.0 MCMC的采样原理介绍
+- 4.1 SmallMover/ShearMover/TrialMover/SequenceMover/RandomMover
+- 4.2 MinMover
+- 4.3 MC Object
 
 
 
-五、Residue Selector: 介绍残基选择器
+五、Residue Selector: 介绍残基选择器@胡志运 
 
 中文总结：https://zhuanlan.zhihu.com/p/58348980
 
@@ -97,7 +98,10 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 进度: 10%, 需要差缺补漏
 
-5.0 [residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb)
+[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 
+
+- 5.0 Residue Selector的逻辑
+- 5.1 Residue Selector的API查询
 
 
 
@@ -105,13 +109,12 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb
 
-6.0 Rotamers & Rotamer Lib
+TaskOperation: [Pack和Design用法.pdf](https://xtalpi.feishu.cn/file/boxcnb4h8Gl8QNLmRgJikidqN9c) 
 
-6.1 Packer & Repack
-
-6.2 TaskOperation & TaskFactory
-
-6.3 PackerPalettes & D-amino acids
+- 6.1 Rotamers & RotamerLib
+- 6.2 Packer & Design
+- 6.3 TaskOperation与TaskFactory（Rotamer自由度控制）
+- 6.4 NCAA(调色板)
 
 
 
@@ -119,7 +122,7 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
 
-7.0 SimpleMetric
+- 7.0 SimpleMetric
 
 
 
@@ -127,7 +130,7 @@ SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
 
 官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Filters/Filters-RosettaScripts
 
-8.0 Filters
+- 8.0 Filters
 
 
 
@@ -137,17 +140,19 @@ xmlObject的API总结: https://zhuanlan.zhihu.com/p/58381573
 
 官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
 
-9.0 RosettaScript
-
-9.1 xmlObject
-
+- 9.0 RosettaScript
+- 9.1 XmlObject
 
 
-专题:
 
-1. Protein Docking 
-2. Loop Modelling
-3. Antibody Modelling
-4. Denovo Design
-5. trRosetta
-6. 对称性处理
+### 更多主题使用的撰写:
+
+1. Protein-Protein Docking: 如何预测一个蛋白质的结构
+2. Loop Modelling: KIC和fragmentKIC的采样
+3. Antibody Modelling: 抗体建模的api
+4. Denovo Design: 使用blueprint设计一个三螺旋蛋白
+5. trRosetta使用和介绍: contacts约束，minmover，relax @翟珂 
+6. 对称性蛋白单元的设计
+7. 膜蛋白与ddG的计算
+8. 氢键网络与Coil-Coil的参数化设计
+9. RNA建模
