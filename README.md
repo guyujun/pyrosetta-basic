@@ -41,19 +41,19 @@ Pyrosetta Basic中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb
 
-- 1.0 [Pose Object Abstract](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_0_Pose_Abstract.ipynb)
+- 1.0 [Pose Object Abstract](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_0_Pose_Abstract.ipynb)
 
-- 1.1 [Pose IO](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_1_Pose_IO.ipynb)
+- 1.1 [Pose IO](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_1_Pose_IO.ipynb)
 
-- 1.2 [PymolMover](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_2_PyMover_PyRosetta.ipynb)
+- 1.2 [PymolMover](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_2_PyMover_PyRosetta.ipynb)
 
-- 1.3 [Pose & PDBinfo](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_3_Pose_PDBinfo.ipynb)
+- 1.3 [Pose & PDBinfo](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_3_Pose_PDBinfo.ipynb)
 
-- 1.4 [Atom & Residue](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_4_Atom_Residue.ipynb)
+- 1.4 [Atom & Residue](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_4_Atom_Residue.ipynb)
 
-- 1.5 [Conformation & Protein Geometry](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_5_Conformation_Geometry.ipynb)
+- 1.5 [Conformation & Protein Geometry](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_5_Conformation_Geometry.ipynb)
 
-- 1.6 [Pose Operation](https://github.com/guyujun/chinese-pyrosetta/blob/master/1_6_Pose_Operating.ipynb)
+- 1.6 [Pose Operation](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_6_Pose_Operating.ipynb)
 
 
 
@@ -65,9 +65,11 @@ Pyrosetta Basic中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
-- 2.0 Atom Model
-- 2.1 Energy Terms and Score Function
-- 2.2 Constraints
+- 2.0 [Atom Model](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/2_Energy/2_1_Atom_Model.ipynb)
+
+- 2.1 [Energy Terms and Score Function](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/2_Energy/2_2_Energy_Function.ipynb)
+
+- 2.2 [Constraints](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/2_Energy/2_3_Constraint.ipynb)
 
 
 
