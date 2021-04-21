@@ -97,7 +97,7 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
 
-- 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Metropolis Monte Carlo.ipynb)
+- 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Metropolis_Monte_Carlo.ipynb)
 
 - 4.1 [Movers & MC object ](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Movers_MC_object.ipynb)
 
