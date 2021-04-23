@@ -94,6 +94,7 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 - 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Metropolis_Monte_Carlo.ipynb)
 
 - 4.1 [Movers & MC object ](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Movers_MC_object.ipynb)
+- 4.2 [Fragment_Folding](https://github.com/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Fragment_Folding.ipynb)
 
 
 
