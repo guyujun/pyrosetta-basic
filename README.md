@@ -1,6 +1,6 @@
-# Pyrosetta Basic
+# PyRosetta Basic
 
-Pyrosetta Basic中文教程，本教程由浅入深，讲解Rosetta的基本原理以及在PyRosetta中的应用实例。
+PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中的应用实例。
 
 @文档贡献者：
 
