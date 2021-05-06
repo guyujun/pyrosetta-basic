@@ -39,8 +39,6 @@ Pyrosetta Basic中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 负责人:@吴炜坤  进度: 100% 
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb
-
 - 1.0 [Pose Object Abstract](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_0_Pose_Abstract.ipynb)
 
 - 1.1 [Pose IO](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/1_PoseIO/1_1_Pose_IO.ipynb)
@@ -61,8 +59,6 @@ Pyrosetta Basic中文教程，本教程由浅入深，讲解Rosetta的基本原�
 
 负责人: @黄健 进度: 60% 
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb
-
 Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
 - 2.0 [Atom Model](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/2_Energy/2_1_Atom_Model.ipynb)
@@ -76,8 +72,6 @@ Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 三、Kinematics与MoveMap: 介绍Rosetta的自由度控制
 
 负责人:@张博文 进度: 10% 
-
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
 
 Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
@@ -104,12 +98,6 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 中文总结：https://zhuanlan.zhihu.com/p/58348980
 
-官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/ResidueSelectors/ResidueSelectors
-
-进度: 10%, 需要差缺补漏
-
-[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 
-
 - 5.0 [Residue Selector的逻辑](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/5_Residue_Selector/5_0_ResidueSelectors_Logic.ipynb)
 
 - 5.1 [Residue Selector的API查询](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/5_Residue_Selector/5_1_ResidueSelector_ApiSearch.ipynb)
@@ -120,10 +108,6 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 六、Packer与TaskOperation: 介绍Packer与氨基酸侧链自由度控制
 
 负责人:@吴炜坤 进度: 50% 
-
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb
-
-TaskOperation: [Pack和Design用法.pdf](https://xtalpi.feishu.cn/file/boxcnb4h8Gl8QNLmRgJikidqN9c) 
 
 - 6.1 [Rotamers &  Packer](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/6_Packer_TaskOperation/6_0_Rotamer_Packer.ipynb)
 - 6.3 TaskOperation、TaskFactory与PackTask（Rotamer自由度控制）
@@ -145,7 +129,7 @@ SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
 
 负责人: @黄健 @张博文 进度: 0% 
 
-官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Filters/Filters-RosettaScripts
+更多官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Filters/Filters-RosettaScripts
 
 - 8.0 Filters
 
@@ -157,7 +141,7 @@ SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
 
 xmlObject的API总结: https://zhuanlan.zhihu.com/p/58381573
 
-官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
+更多官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
 
 - 9.0 RosettaScript
 
