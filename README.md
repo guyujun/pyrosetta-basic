@@ -81,7 +81,7 @@ Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
 Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
-- 3.0 FoldTree
+- 3.0 [FoldTree](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/3_Kinematics/3_0_FoldTree.ipynb)
 - 3.1 Docking Tree & Jumps
 - 3.2 MoveMap
 
@@ -91,10 +91,10 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 负责人:@吴炜坤  进度: 100% 
 
-- 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Metropolis_Monte_Carlo.ipynb)
+- 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/4_0_Metropolis_Monte_Carlo.ipynb)
 
-- 4.1 [Movers & MC object ](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Movers_MC_object.ipynb)
-- 4.2 [Fragment_Folding](https://github.com/guyujun/chinese-pyrosetta/blob/master/4_MCMC/Fragment_Folding.ipynb)
+- 4.1 [Movers & MC object ](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/4_MCMC/4_1_Movers_MC_object.ipynb)
+- 4.2 [Fragment_Folding](https://github.com/guyujun/chinese-pyrosetta/blob/master/4_MCMC/4_2_Fragment_Folding.ipynb)
 
 
 
@@ -110,11 +110,10 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 [residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb) 
 
-- 5.0 Residue Selector的逻辑
+- 5.0 [Residue Selector的逻辑](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/5_Residue_Selector/5_0_ResidueSelectors_Logic.ipynb)
 
-- 5.1 Residue Selector的API查询
+- 5.1 [Residue Selector的API查询](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/5_Residue_Selector/5_1_ResidueSelector_ApiSearch.ipynb)
 
-- 5.2 Residue Selector在pymol中的显示
 
 
 
@@ -126,9 +125,8 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 TaskOperation: [Pack和Design用法.pdf](https://xtalpi.feishu.cn/file/boxcnb4h8Gl8QNLmRgJikidqN9c) 
 
-- 6.1 Rotamers & RotamerLib
-- 6.2 Packer & Design
-- 6.3 TaskOperation与TaskFactory（Rotamer自由度控制）
+- 6.1 [Rotamers &  Packer](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/6_Packer_TaskOperation/6_0_Rotamer_Packer.ipynb)
+- 6.3 TaskOperation、TaskFactory与PackTask（Rotamer自由度控制）
 - 6.4 NCAA(调色板)
 
 
@@ -162,5 +160,9 @@ xmlObject的API总结: https://zhuanlan.zhihu.com/p/58381573
 官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
 
 - 9.0 RosettaScript
+
 - 9.1 XmlObject
+
 - 9.2 自定义Mover
+
+- 9.3 PyRosetta的多进程化
