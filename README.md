@@ -25,7 +25,7 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 ## 大纲内容:
 
-零、安装与入门介绍
+### 零、安装与入门介绍
 
 0.0 [Installation](https://github.com/guyujun/chinese-pyrosetta/blob/master/0_0_Installation.ipynb)
 
@@ -33,11 +33,13 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 0.2 Utils
 
-- Pose与Structure IO: 负责介绍PyRosetta对结构文件的处理，以及Pose对象的重要作用 
+
+
+### 一、Pose与Structure IO: 负责介绍PyRosetta对结构文件的处理，以及Pose对象的重要作用 
 
 负责人:@吴炜坤  进度: 100% 
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb
+> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb
 
 - 1.0 [Pose Object Abstract](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/1_PoseIO/1_0_Pose_Abstract.ipynb)
 
@@ -55,13 +57,13 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 
 
-1. Energy Function与Constraint: 介绍Rosetta的能量函数与物理约束
+### 二、Energy Function与Constraint: 介绍Rosetta的能量函数与物理约束
 
 负责人: @黄健 进度: 60% 
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb
+> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb
 
-Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
+> Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
 - 2.0 [Atom Model](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/2_Energy/2_1_Atom_Model.ipynb)
 
@@ -71,13 +73,13 @@ Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
 
 
-1. Kinematics与Trees: 介绍Rosetta的骨架自由度控制
+### 三、Kinematics与Trees: 介绍Rosetta的骨架自由度控制
 
 负责人:@张博文 进度: 33% 
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
+> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
 
-Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
+> Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 - 3.0 [FoldTree与顺序性](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/3_Kinematics/3_0_FoldTree.ipynb)
 
@@ -87,13 +89,13 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 
 
-1. Monte Carlo: 介绍Rosetta中的蒙特卡洛算法【核心】
+### 四、Monte Carlo: 介绍Rosetta中的蒙特卡洛算法【核心】
 
 负责人:@吴炜坤  进度: 100% 
 
-相关的官方章节:https://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/4.02-Low-Res-Scoring-and-Fragments.ipynb
+> 相关的官方章节:https://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/4.02-Low-Res-Scoring-and-Fragments.ipynb
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
+> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
 
 - 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_0_Metropolis_Monte_Carlo.ipynb)
 
@@ -103,13 +105,13 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 
 
-1. Residue Selector: 介绍残基选择器
+### 五、Residue Selector: 介绍残基选择器
 
 负责人:@槐喆  进度: 50% 。校对:@吴炜坤 
 
-中文总结：https://zhuanlan.zhihu.com/p/58348980
+> 中文总结：https://zhuanlan.zhihu.com/p/58348980
 
-官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/ResidueSelectors/ResidueSelectors
+> 官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/ResidueSelectors/ResidueSelectors
 
 [residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb)
 
@@ -119,13 +121,11 @@ Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
 
 
-1. Packer与TaskOperation: 介绍Packer与氨基酸侧链自由度控制
+### 六、Packer与TaskOperation: 介绍Packer与氨基酸侧链自由度控制
 
 负责人:@吴炜坤 进度: 50% 
 
-相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb
-
-TaskOperation: [Pack和Design用法.pdf](https://xtalpi.feishu.cn/file/boxcnb4h8Gl8QNLmRgJikidqN9c) 
+> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb
 
 - [6.1 Rotamers & Packer](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_0_Rotamer_Packer.ipynb)
 
@@ -135,11 +135,11 @@ TaskOperation: [Pack和Design用法.pdf](https://xtalpi.feishu.cn/file/boxcnb4h8
 
 
 
-1. SimpleMetric: 新一代特征计算和记录工具
+### 七、SimpleMetric: 新一代特征计算和记录工具
 
 负责人:@槐喆 @黄健 进度: 30% 
 
-SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
+> SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
 
 - 7.0 SimpleMetric
 
@@ -147,11 +147,11 @@ SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
 
 
 
-1. Filters: 过滤器，大过滤器！
+### 八、Filters: 过滤器，大过滤器！
 
 负责人: @黄健 @张博文 进度: 0% 
 
-官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Filters/Filters-RosettaScripts
+> 官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Filters/Filters-RosettaScripts
 
 - 8.0 Filters的逻辑
 
@@ -159,16 +159,16 @@ SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
 
 
 
-1. xmlObject & RosettaScript: xmlObject如何解决Rosetta历史遗留问题
+### 九、xmlObject & RosettaScript: xmlObject如何解决Rosetta历史遗留问题
 
 负责人:@黄健 进度: 0% 
 
 xmlObject的API总结: https://zhuanlan.zhihu.com/p/58381573
 
-官网资料: 
-
-1. https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
-2. https://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb
+> 官网资料: 
+>
+> 1. https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
+> 2. https://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb
 
 - 9.0 RosettaScript
 
