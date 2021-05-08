@@ -1,0 +1,27 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>    
+        <ScoreFunction name="molmech" weights="mm_std_fa_elec_dslf_fa13" />
+        <ScoreFunction name="r15_cart" weights="ref2015" >
+            <Reweight scoretype="pro_close" weight="0.0" />
+            <Reweight scoretype="cart_bonded" weight="0.625" />
+        </ScoreFunction>
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+    </RESIDUE_SELECTORS>
+    <TASKOPERATIONS>
+    </TASKOPERATIONS>
+    <FILTERS>
+    </FILTERS>
+    <MOVERS>    
+        <MinMover name="min_torsion" scorefxn="molmech" chi="true" bb="1" cartesian="F" >
+        </MinMover>
+        <MinMover name="min_cart" scorefxn="r15_cart" chi="true" bb="1" cartesian="T" >
+        </MinMover>
+    </MOVERS>
+    <APPLY_TO_POSE>
+    </APPLY_TO_POSE>
+    <PROTOCOLS>
+        <Add mover="min_cart" />    
+    </PROTOCOLS>
+    <OUTPUT scorefxn="r15_cart" />
+</ROSETTASCRIPTS>
