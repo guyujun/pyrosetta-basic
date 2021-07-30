@@ -7,7 +7,7 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 1. 吴炜坤 @晶泰人工智能研发中心
 2. 黄健 @晶泰人工智能研发中心
 3. 张博文 @晶泰人工智能研发中心
-4. 槐喆 @晶泰人工智能研发中心 实习生
+4. 槐喆 @晶泰人工智能研发中心
 
 @校对：
 
@@ -35,11 +35,11 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 
 
-### 一、Pose与Structure IO: 负责介绍PyRosetta对结构文件的处理，以及Pose对象的重要作用 
+### 一、Pose与Structure IO
+
+> 介绍PyRosetta对结构文件的处理，以及Pose对象的重要作用 
 
 负责人:@吴炜坤  进度: 100% 
-
-> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb
 
 - 1.0 [Pose Object Abstract](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/1_PoseIO/1_0_Pose_Abstract.ipynb)
 
@@ -59,23 +59,22 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 ### 二、Energy Function与Constraint: 介绍Rosetta的能量函数与物理约束
 
-负责人: @黄健 进度: 60% 
+负责人: @黄健 校对: @吴炜坤 进度: 100% 
 
 > 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb
 
 > Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
 - 2.0 [Atom Model](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/2_Energy/2_1_Atom_Model.ipynb)
-
 - 2.1 [Energy Terms and Score Function](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/2_Energy/2_2_Energy_Function.ipynb)
-
 - 2.2 [Constraints](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/2_Energy/2_3_Constraint.ipynb)
+- 2.3 [Constraint_API](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/2_Energy/2_4_Contsraint_API.ipynb)
 
 
 
 ### 三、Kinematics与Trees: 介绍Rosetta的骨架自由度控制
 
-负责人:@张博文 进度: 33% 
+负责人:@张博文 校对: @吴炜坤 进度: 100% 
 
 > 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
 
@@ -83,9 +82,8 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 - 3.0 [FoldTree与顺序性](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/3_Kinematics/3_0_FoldTree.ipynb)
 
-- 3.1 Docking Tree & Jumps
+- 3.1 [Jump_Cutpoint](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/3_Kinematics/3_1_Jump_Cutpoint.ipynb)
 
-- 3.2 MoveMap
 
 
 
@@ -98,87 +96,71 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 > 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
 
 - 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_0_Metropolis_Monte_Carlo.ipynb)
-
 - 4.1 [Movers & MC object ](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_1_Movers_MC_object.ipynb)
-
 - 4.2 [Fragment_Folding](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_2_Fragment_Folding.ipynb)
+- 4.3 [Extend_Reading](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/Extended_Reading_Metropolis_Monte_Carlo.ipynb)
 
 
 
 ### 五、Residue Selector: 介绍残基选择器
 
-负责人:@槐喆  进度: 50% 。校对:@吴炜坤 
+> 介绍残基选择器，自定义选择范围。
 
-> 中文总结：https://zhuanlan.zhihu.com/p/58348980
-
-> 官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/ResidueSelectors/ResidueSelectors
-
-[residue selector preview](https://nbviewer.jupyter.org/github/guyujun/chinese-pyrosetta/blob/master/ResidueSelectors.ipynb)
+负责人: @槐喆  校对: @吴炜坤 进度: 100% 
 
 - 5.0 [Residue Selector的逻辑](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/5_Residue_Selector/5_0_ResidueSelectors_Logic.ipynb)
-
 - 5.1 [Residue Selector的API查询](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/5_Residue_Selector/5_1_ResidueSelector_ApiSearch.ipynb)
 
 
 
 ### 六、Packer与TaskOperation: 介绍Packer与氨基酸侧链自由度控制
 
-负责人:@吴炜坤 进度: 50% 
+> 介绍Packer与氨基酸侧链自由度控制，如何使用PyRosetta进行设计
 
-> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb
+负责人:@吴炜坤 进度: 100% 
 
-- [6.1 Rotamers & Packer](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_0_Rotamer_Packer.ipynb)
-
-- 6.2 TaskOperation、TaskFactory与PackTask（Rotamer自由度控制）
-
-- 6.3 NCAA(调色板)
+- 6.0 [Rotamers & Packer](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_0_Rotamer_Packer.ipynb)
+- 6.1 [TaskOperation & PackTask](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_1_PackTask_TaskOP.ipynb)
+- 6.2 [Resfile System](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_2_Resfile System.ipynb)
+- 6.3 [TaskOperation API](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_3_TaskOperation_API.ipynb)
 
 
 
 ### 七、SimpleMetric: 新一代特征计算和记录工具
 
-负责人:@槐喆 @黄健 进度: 30% 
+> 新一代特征计算和记录工具
 
-> SimpleMetric的API总结 https://zhuanlan.zhihu.com/p/58383955
+负责人:@槐喆  校对: @吴炜坤 
 
-- 7.0 SimpleMetric
-
-- ????
-
+- 7.0 [SimpleMetric逻辑](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/7_Simple_Metrics/7_0_Simple_Metrics_Logic.ipynb)
+- 7.1 [SimpleMetric的API查询](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/7_Simple_Metrics/7_1_Simple_Metrics_ApiSearch.ipynb)
 
 
-### 八、Filters: 过滤器，大过滤器！
 
-负责人: @黄健 @张博文 进度: 0% 
+### 八、Filters: 过滤器
 
-> 官网资料: https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Filters/Filters-RosettaScripts
+> 过滤器，大过滤器！
 
-- 8.0 Filters的逻辑
+负责人: @黄健 进度: 50% 校对: @吴炜坤 
 
-- 8.1 Filters的API
+- 8.0 [Filters的逻辑]([ 8_1_Filter_Introduction.ipynb](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/8_Filter/8_1_Filter_Introduction.ipynb))
+
+- 8.1 [Filters的API](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/8_Filter/8_2_Filter_api.ipynb)
 
 
 
 ### 九、xmlObject & RosettaScript: xmlObject如何解决Rosetta历史遗留问题
 
-负责人:@黄健 进度: 0% 
+负责人:@黄健 进度: 90% 校对: @吴炜坤 
+
+> xmlObject如何解决Rosetta C++ to Python历史接口
 
 xmlObject的API总结: https://zhuanlan.zhihu.com/p/58381573
 
-> 官网资料: 
->
-> 1. https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/RosettaScripts
-> 2. https://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb
+- 9.0 [RosettaScript基础](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/9_xmlObject_RosettaScript/9_1_RS_basis.ipynb)
+- 9.1  [RosettaScript进阶](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/9_xmlObject_RosettaScript/9_2_RS_advanced.ipynb)
 
-- 9.0 RosettaScript
 
-- 9.1 XmlObject
-
-- 9.2 自定义Mover
-
-- 9.3 PyRosetta的多进程化
-
-### 
 
 ## 参考资料:
 
