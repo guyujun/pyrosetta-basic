@@ -57,13 +57,11 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 
 
-### 二、Energy Function与Constraint: 介绍Rosetta的能量函数与物理约束
+### 二、Energy Function与Constraint: 
+
+> 介绍Rosetta的能量函数与物理约束
 
 负责人: @黄健 校对: @吴炜坤 进度: 100% 
-
-> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb
-
-> Constraint的API总结: https://zhuanlan.zhihu.com/p/58897635
 
 - 2.0 [Atom Model](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/2_Energy/2_1_Atom_Model.ipynb)
 - 2.1 [Energy Terms and Score Function](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/2_Energy/2_2_Energy_Function.ipynb)
@@ -72,11 +70,11 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 
 
-### 三、Kinematics与Trees: 介绍Rosetta的骨架自由度控制
+### 三、Kinematics与Trees: 
+
+> 介绍Rosetta的骨架自由度控制与连接关系
 
 负责人:@张博文 校对: @吴炜坤 进度: 100% 
-
-> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb
 
 > Foldtree的概念: https://zhuanlan.zhihu.com/p/59863638
 
@@ -87,13 +85,11 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 
 
-### 四、Monte Carlo: 介绍Rosetta中的蒙特卡洛算法【核心】
+### 四、Monte Carlo
+
+>  介绍Rosetta中的蒙特卡洛算法【核心】
 
 负责人:@吴炜坤  进度: 100% 
-
-> 相关的官方章节:https://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/4.02-Low-Res-Scoring-and-Fragments.ipynb
-
-> 相关的官方章节: http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb
 
 - 4.0 [Metropolis & Simulated annealing](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_0_Metropolis_Monte_Carlo.ipynb)
 - 4.1 [Movers & MC object ](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_1_Movers_MC_object.ipynb)
@@ -149,7 +145,7 @@ PyRosetta Basic中文教程，讲解Rosetta的基本原理以及在PyRosetta中�
 
 
 
-### 九、xmlObject & RosettaScript: xmlObject如何解决Rosetta历史遗留问题
+### 九、xmlObject & RosettaScript
 
 负责人:@黄健 进度: 90% 校对: @吴炜坤 
 
