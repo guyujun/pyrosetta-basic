@@ -154,7 +154,7 @@ Silent与rstoolbox的完美结合。
 
 ### 参考资料:
 
-PyRosetta中文基础计划的地址: https://github.com/guyujun/chinese-pyrosetta
+PyRosetta中文基础计划的地址: https://github.com/guyujun/pyrosetta-basic
 
 官方PyRosetta Notebook开源地址: https://github.com/RosettaCommons/PyRosetta.notebooks
 
