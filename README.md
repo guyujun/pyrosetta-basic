@@ -124,7 +124,7 @@ PyRosetta的官方Notebook在很久之前就正式发布了，这次由晶泰科
 
 负责人: @吴炜坤@黄健 
 
-- 8.0 [Filters的逻辑]((https://nbviewer.jupyter.org/github/guyujun/pyrosettabasic/blob/master/8_Filter/8_1_Filter_Introduction.ipynb))
+- 8.0 [Filters的逻辑](https://nbviewer.jupyter.org/github/guyujun/pyrosettabasic/blob/master/8_Filter/8_1_Filter_Introduction.ipynb)
 - 8.1 [Filters的API查询](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/8_Filter/8_2_RosettaFilter_API.ipynb)
 
 
