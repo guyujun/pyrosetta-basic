@@ -9,7 +9,7 @@ from pyrosetta.io import poses_to_silent
 init('')
 
 # load pose
-starting_pose = pose_from_pdb('./data/EHEE_rd4_0976.pdb')
+starting_pose = pose_from_pdb('./data/EHPC100_job_77_hhh_11.5.10.5.10_20201122032313.pdb')
 ref2015 = create_score_function('ref2015')
 design_tf = TaskFactory()
 
