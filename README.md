@@ -102,7 +102,7 @@ PyRosetta的官方Notebook在很久之前就正式发布了，这次由晶泰科
 
 - 6.0 [Rotamers & Packer简介](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_0_Rotamer_Packer.ipynb)
 - 6.1 [TaskOperation & PackTask任务机制](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_1_PackTask_TaskOP.ipynb)
-- 6.2 [Resfile System与Rotamer控制](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_2_Resfile System.ipynb)
+- 6.2 [Resfile System与Rotamer控制](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_2_Resfile_System.ipynb)
 - 6.3 [TaskOperation的API查询](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/6_Packer_TaskOperation/6_3_TaskOperation_API.ipynb)
 
 
