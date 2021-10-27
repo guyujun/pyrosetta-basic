@@ -79,7 +79,6 @@ PyRosetta的官方Notebook在很久之前就正式发布了，这次由晶泰科
 - 4.0 [Metropolis Monte Carlo采样](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_0_Metropolis_Monte_Carlo.ipynb)
 - 4.1 [Movers & MC object运作机理](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_1_Movers_MC_object.ipynb)
 - 4.2 [Fragment如何加速Folding采样](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/4_2_Fragment_Folding.ipynb)
-- 4.3 [Extend_Reading(选读)](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/4_MCMC/Extended_Reading_Metropolis_Monte_Carlo.ipynb)
 
 
 
@@ -135,8 +134,8 @@ xmlObject如何解决Rosetta历史遗留问题
 
 负责人:@黄健@吴炜坤 
 
-- 9.0 [RosettaScript基础](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/9_xmlObject_RosettaScript/9_1_RS_basis.ipynb)
-- 9.1  [RosettaScript进阶](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/9_xmlObject_RosettaScript/9_2_RS_advanced.ipynb)
+- 9.0 [RosettaScript基础](https://nbviewer.org/github/guyujun/pyrosetta-basic/blob/master/9_XmlObject/9_1_RS_basis.ipynb)
+- 9.1 [RosettaScript进阶](https://nbviewer.org/github/guyujun/pyrosetta-basic/blob/master/9_XmlObject/9_2_RS_advanced.ipynb)
 - 9.2 [XmlObject的用法](https://nbviewer.jupyter.org/github/guyujun/pyrosetta-basic/blob/master/9_XmlObject/9_3_XmlObject.ipynb)
 
 
